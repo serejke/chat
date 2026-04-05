@@ -1,5 +1,13 @@
 # @chat-adapter/gchat
 
+## 4.24.0
+
+### Patch Changes
+
+- Updated dependencies [27b34e1]
+  - chat@4.24.0
+  - @chat-adapter/shared@4.24.0
+
 ## 4.23.0
 
 ### Patch Changes

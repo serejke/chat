@@ -1,5 +1,11 @@
 # chat
 
+## 4.24.0
+
+### Patch Changes
+
+- 27b34e1: Use adapter to parse channel id for `thread.channelId`
+
 ## 4.23.0
 
 ### Minor Changes

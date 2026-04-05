@@ -1,5 +1,14 @@
 # @chat-adapter/discord
 
+## 4.24.0
+
+### Patch Changes
+
+- 09f6230: Fix silent thread creation failure when Discord returns error code 160004 ("A thread has already been created for this message"). The adapter now recovers by reusing the existing thread instead of falling back to a standalone channel message.
+- Updated dependencies [27b34e1]
+  - chat@4.24.0
+  - @chat-adapter/shared@4.24.0
+
 ## 4.23.0
 
 ### Patch Changes

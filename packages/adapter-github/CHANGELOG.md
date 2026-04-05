@@ -1,5 +1,17 @@
 # @chat-adapter/github
 
+## 4.24.0
+
+### Minor Changes
+
+- 90cfb6a: Expose `getInstallationId(threadOrMessage)` on the GitHub adapter so callers can resolve the GitHub App installation associated with GitHub thread and message context.
+
+### Patch Changes
+
+- Updated dependencies [27b34e1]
+  - chat@4.24.0
+  - @chat-adapter/shared@4.24.0
+
 ## 4.23.0
 
 ### Patch Changes
